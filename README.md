@@ -21,7 +21,7 @@ Each project folder includes:
 - Excel & Power BI dashboards for visualization  
 - Key findings on countries, events, and athlete demographics  
 
-🔗 [View Project](./"Sports Analysis"/README.md)  
+🔗 [View Project](./Sports%20Analysis/README.md)
 
 ---
 
@@ -33,7 +33,7 @@ Each project folder includes:
 - Inventory and supplier trends  
 - Employee contribution insights  
 
-🔗 [View Project](./Sports%20Analysis/README.md)
+🔗 [View Project](./Sales-Analytics-Project/README.md)
 
 ---
 
