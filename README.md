@@ -33,7 +33,7 @@ Each project folder includes:
 - Inventory and supplier trends  
 - Employee contribution insights  
 
-🔗 [View Project](./Sales-Analytics-Project/README.md)
+🔗 [View Project](./Sales%20Analytics%20Project/README.md)
 
 ---
 
