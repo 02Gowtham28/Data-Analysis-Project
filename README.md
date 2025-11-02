@@ -47,7 +47,7 @@ Each project folder includes:
 - Customer segments, discount usage, and product/category performance studies
 - Actionable business recommendations (loyalty, targeting, product positioning)
 
-🔗 [View Project](YOUR_README_URL)
+🔗 [View Project](./Customers%20Shopping%20Behavior%20Analysis/README.md)
 
 ---
 
