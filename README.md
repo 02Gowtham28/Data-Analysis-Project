@@ -37,7 +37,7 @@ Each project folder includes:
 
 ---
 
-### 3️⃣ Customer Shopping Behavior Analysis Project**
+### 3️⃣ Customer Shopping Behavior Analysis Project
 
 📌 **Objective:** Analyze 3,900+ customer transactions to uncover spending patterns, segment behavior, product preferences, and subscription insights to guide business strategy.
 
