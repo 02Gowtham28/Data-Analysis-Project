@@ -37,6 +37,20 @@ Each project folder includes:
 
 ---
 
+3️⃣ **Customer Shopping Behavior Analysis Project**
+
+📌 **Objective:** Analyze 3,900+ customer transactions to uncover spending patterns, segment behavior, product preferences, and subscription insights to guide business strategy.
+
+🎯 **Highlights:**
+- Python & SQL-based analysis covering transactional and behavioral features
+- Power BI dashboard for visualizing key insights and trends
+- Customer segments, discount usage, and product/category performance studies
+- Actionable business recommendations (loyalty, targeting, product positioning)
+
+🔗 [View Project](YOUR_README_URL)
+
+---
+
 
 ## 🛠️ Tools & Technologies
 - 🛢️ **MySQL Workbench** – Data querying & cleaning  
