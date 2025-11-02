@@ -1,129 +1,71 @@
-# 🏅 Olympic Sports Analysis
+# Customer Shopping Behavior Analysis
 
-## 👤 Author: Gowtham R
+## Project Overview
+This project analyzes customer shopping behavior using transactional data from 3,900 purchases across various product categories. The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide strategic business decisions[attached_file:1].
 
----
+## Dataset Description
+- **Rows:** 3,900
+- **Columns:** 18
+- **Key Features:**
+  - Customer demographics: Age, Gender, Location, Subscription Status
+  - Purchase details: Item Purchased, Category, Purchase Amount, Season, Size, Color
+  - Shopping behavior: Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type
+- **Missing Data:** 37 values missing in the Review Rating column[attached_file:1].
 
-## 📌 Problem Statement
+## Data Preparation and Analysis
 
-The objective of this analysis is to gain valuable insights into the historical data of the Olympic Games by exploring various dimensions, including:
+### Data Cleaning & Feature Engineering
+- Handled missing values and standardized column names.
+- Created new features: age group (by binning ages) and purchase frequency (days).
+- Imputed missing review ratings by the median rating of each product category.
+- Ensured data consistency by checking redundant columns and integrating with PostgreSQL for SQL-based analysis[attached_file:1].
 
-- Games
-- Sports
-- Events
-- Participants
-- Medals
-- Regional Representation
+### Exploratory Data Analysis (EDA)
+- Performed initial data exploration and summary statistics using Python (pandas).
+- Visualized distributions and trends in customer shopping patterns[attached_file:1].
 
-The scope includes data from multiple Olympic editions, aiming to identify trends, patterns, and significant insights. This analysis provides a comprehensive overview of the evolution of the Olympics and aims to deliver recommendations to:
+### SQL Business Analysis
+- Structured analysis in SQL Server Management Studio (SSMS) to answer business questions:
+  - Revenue by Gender
+  - High-Spending Discount Users
+  - Top 5 Products by Rating
+  - Shipping Type Comparison
+  - Subscribers vs. Non-Subscribers spend/revenue
+  - Discount-Dependent Products
+  - Customer Segmentation (New, Returning, Loyal)
+  - Top Products per Category
+  - Repeat Buyers and Subscription Likelihood
+  - Revenue by Age Group[attached_file:1]
 
-- Improve the organization of future Olympics
-- Guide sport selection
-- Ensure fair regional representation
+## Dashboard
 
-**Final Deliverables**:  
-A comprehensive report, Power BI dashboard, and Excel-based EDA.
+The findings are presented in an interactive dashboard built using Power BI to visually communicate key insights and trends to stakeholders[attached_file:1].
 
----
-
-## 🗃️ Dataset Description
-
-The dataset is a structured collection of normalized tables from a **relational MySQL database**, capturing detailed information about Olympic Games, sports, participants, events, and results.
-
----
-
-## 🧾 Table Descriptions
-
-| Table Name              | Description |
-|------------------------|-------------|
-| **Sport Table**         | List of all sports featured in Summer and Winter Olympics |
-| **Event Table**         | Details of events by sport and gender (Men, Women, Mixed) |
-| **City Table**          | Cities that hosted or participated in the Olympics |
-| **Games Table**         | Editions of the Olympics with year and season |
-| **Games_City Table**    | Links Games and City tables (e.g., multi-city hosting) |
-| **NOC_Region Table**    | National Olympic Committees and country/region mapping |
-| **Person Table**        | Athlete demographics – name, gender, height, weight |
-| **Person_Region Table** | Athletes and countries they represented |
-| **Games_Competitor**    | Participation of athletes in specific Olympic editions |
-| **Medal Table**         | Types of medals: Gold, Silver, Bronze, N/A |
-| **Competitor_Event**    | Fact table with competitor-event-medal details |
-
----
-
-## 🎯 Project Objectives
-
-- Perform **Exploratory Data Analysis (EDA)** using SQL & Excel
-- Build **interactive dashboards** using Power BI and Excel
-- Analyze:
-  - Game editions
-  - Gender disparities
-  - Sport popularity
-  - Medal distribution
-  - Regional performance
-- Answer 18 analytical questions
-
----
-
-## 🛠️ Tools Used
-
-- 🛢️ MySQL Workbench – Data querying
-- 📊 Microsoft Excel – Pivot charts, slicers, dashboards
-- 🟡 Power BI – Interactive and visual-rich reporting
-- 📽️ PowerPoint – Final presentation layer
-
----
-
-## 📊 Dashboards
-
-### ✅ Excel Dashboard
-- 18 EDA sheets
-- 1 consolidated dashboard with slicers & pivot tables
-- ![Screenshot 2025-06-26 150704](https://github.com/user-attachments/assets/581b8b1e-e76e-4bec-8078-e6f801ca2c38)
+<img width="1672" height="1070" alt="Screenshot 2025-11-02 105052" src="https://github.com/user-attachments/assets/c9c4b2b2-4c7e-4b9b-bfad-10b929d4e35b" />
 
 
-### ✅ Power BI Dashboard
-- 9 visuals summarizing 18 questions
-- Fully interactive and presentation-ready
-- ![image](https://github.com/user-attachments/assets/9bc4eb30-61ec-4d97-9cb5-115df623cfb0)
+## Business Recommendations
+- **Boost Subscriptions:** Promote exclusive benefits for subscribers.
+- **Customer Loyalty Programs:** Reward repeat buyers to increase loyalty.
+- **Review Discount Policy:** Balance between sales uplift and profit margin.
+- **Product Positioning:** Highlight top-rated and best-selling products.
+- **Targeted Marketing:** Focus on high-revenue age groups and express shipping users[attached_file:1].
 
+## How to Run
 
-## 🔍 Sample Analytical Questions
+1. Clone this repository.
+2. Open and run the provided Jupyter Notebooks for data cleaning and analysis.
+3. View the Power BI dashboard (dashboard file included).
+4. For SQL analysis, use the provided `.sql` scripts in SSMS or PostgreSQL.
 
-- How have Olympic Games evolved across decades?
-- Which countries/regions dominate the medal tally?
-- What are the gender disparities in events?
-- Are there region-specific sports?
-- Which sports are emerging or discontinued?
+## Requirements
 
----
+- Python 3.x
+- pandas
+- Jupyter Notebook
+- PostgreSQL or MySQL or SQL Server
+- Power BI Desktop
 
-## 📈 Key Insights
+## License
 
-- **81.39%** of Olympic Games are Summer editions.
-- **USA** dominates participation and medal counts.
-- **London** is the most frequent host city.
-- **Athletics** and **Swimming** top in athlete participation.
-- **Post-2000** shows increasing inclusion of women and new sports.
-- Some sports are exclusive to specific regions (e.g., Roque – USA, Pelota – Spain).
-
----
-
-## 📝 Deliverables
-
-- 📄 `Sports Analysis Document.pdf` – SQL queries + visual insights
-- 📊 Excel workbook – EDA + dashboard
-- 📈 Power BI dashboard – Interactive analysis
-- 📽️ PowerPoint presentation – Summary of findings
-
----
-
-## 🚀 Future Enhancements
-
-- Automate workflow using **Python** (SQL → Excel)
-- Publish dashboards via **Power BI Service** or **Tableau Public**
-- Integrate athlete bios or economic factors for richer context
-- Use ML for **medal prediction**
-
----
-
-
+This project is for educational and portfolio purposes.
