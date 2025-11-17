@@ -50,6 +50,20 @@ Each project folder includes:
 🔗 [View Project](./Customers%20Shopping%20Behavior%20Analysis/README.md)
 
 ---
+### 4️⃣ Meta Ad Performance Dashboard (Power BI)
+
+📌 **Objective:** Build an interactive Power BI dashboard to analyze advertising performance across Meta platforms (Facebook & Instagram).
+
+📊 **Highlights:**
+- KPI analysis: **Impressions, Clicks, CTR, Conversions, ROAS**
+- Audience breakdown: **Age, Gender, Country, Interests**
+- Funnel performance: **Awareness → Engagement → Purchase**
+- Time-based insights: **Hourly, Daily, Weekly trends**
+- Recommendations to improve **ROI & targeting**
+
+🔗 **[View Project](./Meta%20Ad%20Performance%20Analysis%20(Facebook%20and%20Instagram)/README.md)**
+
+---
 
 
 ## 🛠️ Tools & Technologies
