@@ -192,3 +192,35 @@ All outcome visualizations (charts and maps) are generated within the Jupyter No
 
 ## 📁 Project Structure
 
+- **data/** – Contains the raw dataset used for analysis  
+- **notebooks/** – Jupyter Notebook with data cleaning, EDA, and visualizations  
+- **images/** – Uploaded screenshots of important charts and maps  
+- **README.md** – Project documentation and explanation
+
+---
+
+## 🚀 Conclusion
+
+This project demonstrates a complete **end-to-end Data Analytics workflow**, covering:
+
+- Data cleaning and preprocessing  
+- Feature engineering  
+- Exploratory data analysis  
+- Visualization and storytelling  
+- Insight generation  
+
+It reflects **real-world data challenges** and showcases analytical thinking, making it well-suited for **Data Analyst and Analytics-focused roles**.
+
+---
+
+## 👤 Author
+
+**Gowtham R**  
+Bachelor of Engineering – Computer Science & Engineering (Data Science)  
+Aspiring Data Analyst | Data Visualization | Python | SQL  
+
+---
+
+⭐ *If you find this project useful, feel free to star the repository!* ⭐
+
+
