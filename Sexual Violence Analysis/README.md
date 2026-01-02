@@ -140,6 +140,21 @@ All chart types were selected based on:
 All outcome visualizations (charts and maps) are generated within the Jupyter Notebook.
 
 📌 **Screenshots of key outcome plots can be found in the repository (uploaded separately)** to provide quick visual reference without executing the notebook.
+<img width="1350" height="667" alt="image" src="https://github.com/user-attachments/assets/84a48a6f-c350-47e2-a51f-e2c89e97f54e" />
+
+<img width="1248" height="707" alt="image" src="https://github.com/user-attachments/assets/4b868cfb-a41d-4ff7-9d82-c22195515b01" />
+<img width="1367" height="426" alt="image" src="https://github.com/user-attachments/assets/d98a02a9-1886-4288-9182-3cf72dd4af61" />
+
+<img width="1283" height="621" alt="image" src="https://github.com/user-attachments/assets/6282bc96-5774-4ac2-a169-b54948533c6e" />
+<img width="1261" height="646" alt="image" src="https://github.com/user-attachments/assets/9a8cfceb-b81f-446a-8fb6-6eec626fc156" />
+
+<img width="796" height="727" alt="image" src="https://github.com/user-attachments/assets/3ff6bb22-7eea-417e-8a44-8b3155b28387" />
+
+<img width="1341" height="511" alt="image" src="https://github.com/user-attachments/assets/b04be88d-64ff-490e-a65c-531f66c04d7a" />
+
+<img width="1372" height="664" alt="image" src="https://github.com/user-attachments/assets/72ae6e3d-5a18-4618-b47d-d1bf47d43661" />
+
+<img width="1356" height="572" alt="image" src="https://github.com/user-attachments/assets/4a1c79f2-db80-4a30-9a3d-9af46755f857" />
 
 ---
 
