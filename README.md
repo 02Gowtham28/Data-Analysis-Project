@@ -1,7 +1,7 @@
 # 📊 Data Analytics Projects Repository
 
 Welcome to my **Data Analytics Portfolio Repository** 🚀.  
-This repo contains end-to-end **data analytics projects** showcasing skills in **SQL, Excel, Power BI, and storytelling with data**.  
+This repo contains end-to-end **data analytics projects** showcasing skills in **SQL, Excel, Power BI, Python and storytelling with data**.  
 
 Each project folder includes:  
 - 📄 Project-specific README  
