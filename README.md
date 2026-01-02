@@ -78,7 +78,7 @@ Each project folder includes:
 
 🛠️ **Tools Used:** Python, Pandas, NumPy, Matplotlib, Plotly, Jupyter Notebook  
 
-🔗 **[View Project](./Conflict-Related%20Sexual%20Violence%20Analysis/README.md)**
+🔗 **[View Project](./Sexual%20Violence%20Analysis/README.md)**
 
 ---
 
