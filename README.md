@@ -64,6 +64,24 @@ Each project folder includes:
 🔗 **[View Project](./Meta%20Ad%20Performance%20Analysis%20(Facebook%20and%20Instagram)/README.md)**
 
 ---
+### 5️⃣ Conflict-Related Sexual Violence Data Analysis (2020–2024)
+
+📌 **Objective:** Perform an end-to-end **data analytics and exploratory analysis** on global conflict-related sexual violence incidents to identify patterns across geography, demographics, weapons used, and outcomes.
+
+📊 **Highlights:**
+- Extensive **data cleaning & transformation** of unanalysis-ready real-world data  
+- Feature engineering: **age groups, gender normalization, weapon categorization**  
+- Derived metric: **Estimated Survivors (Victims − Deaths)**  
+- Country-wise analysis using **interactive choropleth maps**  
+- Comparative analysis of **victims, deaths, and survivors**  
+- Clear, insight-driven visual storytelling using Python  
+
+🛠️ **Tools Used:** Python, Pandas, NumPy, Matplotlib, Plotly, Jupyter Notebook  
+
+🔗 **[View Project](./Conflict-Related%20Sexual%20Violence%20Analysis/README.md)**
+
+---
+
 
 
 ## 🛠️ Tools & Technologies
